@@ -1,0 +1,10 @@
+{
+    "REWARDS": {
+        "TURN": 1,
+        "EXIT": 20,
+        "KILL": 4,
+        "TREASURE": 3,
+        "POTION": 1,
+        "DEAD": -20
+    }
+}

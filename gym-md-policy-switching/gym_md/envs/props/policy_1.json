@@ -1,0 +1,19 @@
+{
+    "PLAYER_MAX_HP": 5,
+    "IS_PLAYER_HP_LIMIT": true,
+    "ENEMY_POWER": 10,
+    "ENEMY_POWER_MIN": 5,
+    "ENEMY_POWER_MAX": 10,
+    "IS_ENEMY_POWER_RANDOM": true,
+    "POTION_POWER": 10,
+    "DISTANCE_INF": 1000,
+    "RENDER_WAIT_TIME": 0.01,
+    "REWARDS": {
+      "TURN": 1,
+      "EXIT": 20,
+      "KILL": 4,
+      "TREASURE": 5,
+      "POTION": 1,
+      "DEAD": -20
+    }
+  }

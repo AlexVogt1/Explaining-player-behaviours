@@ -1,0 +1,42 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+mypy = "*"
+pydantic = "*"
+pytype = "*"
+pytest = "*"
+gym = "*"
+numpy = "*"
+flake8 = "*"
+black = "*"
+pydocstyle = "*"
+flake8-docstrings = "*"
+flake8-mypy = "*"
+isort = "*"
+flake8-isort = "*"
+flake8-print = "*"
+tox = "*"
+sphinx = "*"
+sphinx-rtd-theme = "*"
+rich = "*"
+matplotlib = "*"
+twine = "*"
+
+[dev-packages]
+sphinx-autobuild = "*"
+wheel = "*"
+twine = "*"
+
+[requires]
+python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true
+
+[scripts]
+build = "sphinx-build source build"
+auto_build = "sphinx-autobuild source build"
+test = "pytest tests"
